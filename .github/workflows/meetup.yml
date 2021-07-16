@@ -9,9 +9,9 @@ jobs:
     strategy:
       matrix: 
         meetup_group:
-          - URL HERE
-          - URL HERE
-          - ETC
+          - Docker-Bangalore
+          - Docker-Online-Meetup
+          - Sydney-Docker-User-Group
     steps:
     - uses: actions/checkout@v2
       with:
